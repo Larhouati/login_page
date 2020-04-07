@@ -1,0 +1,42 @@
+html,body{
+  height: 100%
+}
+body{
+background:linear-gradient(30deg,red,#707086) no-repeat;
+}
+form{
+  width: 31%;
+background-color: #ab6969;
+height: 433px;
+margin: 100px auto;
+border-radius: 73px;
+}
+form input{
+  width: 71%;
+  margin: 30px auto;
+  display: block;
+  height: 36px;
+  text-align: center;
+  font-size: 25px;
+  border-radius: 46px;
+    border: none;
+    background-color: aqua;
+    line-weight:0;
+}
+form input:nth-of-type(1){
+margin-top: 5px;
+}
+
+form p{
+  width: 105px;
+    margin: 10px auto;
+    padding: 42px 15px;
+    font-family: fantasy;
+    font-size: 40px;
+    font-weight: 700;
+    }
+form input[type="submit"]{
+  width: 63%;
+    background-color: #cab2b2;
+    text-transform: capitalize;
+}

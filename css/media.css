@@ -1,0 +1,53 @@
+@media (max-width: 576px) {
+form{
+  width:98% !important;
+}
+form input{
+  width: 93% !important;
+}
+}
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+form{
+width:55% !important;
+}
+form input{
+  width: 80% !important;
+      height: 51px !important;
+}
+form input[type="submit"]{
+  width: 67% !important;
+}
+ }
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+form{
+  width: 40% !important;
+}
+form input{
+  width: 78% !important;
+      height: 41px !important;
+
+}
+form p{
+  font-size: 48px !important;
+}
+ }
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+form {
+    width: 40% !important;
+  }
+  form p{
+        width: 119px !important;
+            font-size: 50px !important;
+  }
+  form input{
+        width: 75% !important;
+            font-size: 30px !important;
+            height: 42px !important;
+  }
+
+ }
